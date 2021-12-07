@@ -13,3 +13,6 @@ image:
 service:
   type: ClusterIP
   port: 1433
+
+config:
+  saPassword: "th3Passw0rd"

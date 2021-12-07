@@ -25,7 +25,7 @@ spec:
           - name: ACCEPT_EULA
             value: "Y"
           - name: SA_PASSWORD
-            value: "th3Passw0rd"
+            value: {{.Values.config.saPassword | quote }}
         ports:
         - containerPort: 1433
         volumeMounts:
