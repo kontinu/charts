@@ -3,12 +3,22 @@ entries:
   mssql:
   - apiVersion: v2
     appVersion: 2017-latest
-    created: "2021-12-06T19:53:43.384176-06:00"
+    created: "2021-12-06T20:12:20.66821-06:00"
     description: A Helm chart for Kubernetes
-    digest: 742c8eccd9c550eec14026566c02139299eb8aa03413b2e17746dab6d0446965
+    digest: c8b2a3fbbf951184b76147a143baa549eb4a9c20c76847ccc3a5da08ab4bdae7
+    name: mssql
+    type: application
+    urls:
+    - https://kontinu.github.io/charts/mssql-0.0.1.tgz
+    version: 0.0.1
+  - apiVersion: v2
+    appVersion: 2017-latest
+    created: "2021-12-06T20:12:20.669639-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 21315af5850d7be54385ab0e23078155da35fb3039f31ac9418f45981a2672d0
     name: mssql
     type: application
     urls:
     - https://kontinu.github.io/charts/.deploy/mssql-0.0.1.tgz
     version: 0.0.1
-generated: "2021-12-06T19:53:43.381187-06:00"
+generated: "2021-12-06T20:12:20.664441-06:00"
