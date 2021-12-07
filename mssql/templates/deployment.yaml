@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mssql
+  labels:
+    app: mssql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mssql
+  template:
+    metadata:
+      labels:
+        app: mssql
+    spec:
+      containers:
+      - name: mssql
+        image: {{.Values.image.repository}}:{{.Values.image.tag}}
+        resources:
+          requests:
+            cpu: 1
+            memory: 1Gi
+        env:
+          - name: ACCEPT_EULA
+            value: "Y"
+          - name: SA_PASSWORD
+            value: "th3Passw0rd"
+        ports:
+        - containerPort: 1433
+        volumeMounts:
+        - name: mssql
+          mountPath: /var/opt/mssql
+      volumes:
+      - name: mssql
+        persistentVolumeClaim:
+          claimName: pvc-mssql
+
+
