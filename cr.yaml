@@ -1,7 +1,9 @@
-# Chart Releaser configuration
 owner: kontinu
 git-repo: kontinu/charts
 package-path: .deploy
-token: 123456789
 git-base-url: https://api.github.com/
 git-upload-url: https://uploads.github.com/
+package-path: .deploy
+charts-repo: https://github.com/kontinu/charts.git
+
+# Chart Releaser configuration
