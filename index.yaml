@@ -11,14 +11,4 @@ entries:
     urls:
     - https://kontinu.github.io/charts/mssql-0.0.1.tgz
     version: 0.0.1
-  - apiVersion: v2
-    appVersion: 2017-latest
-    created: "2021-12-06T20:12:20.669639-06:00"
-    description: A Helm chart for Kubernetes
-    digest: 21315af5850d7be54385ab0e23078155da35fb3039f31ac9418f45981a2672d0
-    name: mssql
-    type: application
-    urls:
-    - https://kontinu.github.io/charts/.deploy/mssql-0.0.1.tgz
-    version: 0.0.1
 generated: "2021-12-06T20:12:20.664441-06:00"
