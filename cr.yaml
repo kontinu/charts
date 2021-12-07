@@ -1,9 +1,8 @@
 owner: kontinu
-git-repo: kontinu/charts
+git-repo: charts
 package-path: .deploy
 git-base-url: https://api.github.com/
 git-upload-url: https://uploads.github.com/
-package-path: .deploy
-charts-repo: https://github.com/kontinu/charts.git
+charts-repo: https://kontinu.github.io/charts/
 
 # Chart Releaser configuration
